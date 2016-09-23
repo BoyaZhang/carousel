@@ -43,7 +43,7 @@
             var pictures = document.getElementsByTagName('li');
             removeEvent();
             for(var i=0;i<pictures.length;i++){
-                pictures[i].classList.remove('center','left','back','right');
+                pictures[i].classList.remove('center','left','back','right','grow');
                 pictures[i].classList.add(stateClass[i]);
             };
             addEvent();
